@@ -8,7 +8,7 @@ rustflags = [
     # This provides the DtlnPlugin wrapper to match our NEON module interface.
     "-C", "link-args=--post-js ./dtln_post.js",
     "-C", "link-args=--pre-js ./dtln_pre.js",
-    "-C", "link-args=-s SINGLE_FILE=1 -s ENVIRONMENT=\"web,worker\"",
+    "-C", "link-args=-s SINGLE_FILE=1 -s ENVIRONMENT=['web','worker']",
     "-C", "link-args=-msimd128 -msse",
 
     "-C", "target-feature=+simd128",
