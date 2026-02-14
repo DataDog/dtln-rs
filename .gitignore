@@ -12,3 +12,4 @@ tflite/lib/*
 dtln.js
 index.node
 dtln_rs.wasm
+node_modules

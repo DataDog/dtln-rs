@@ -3,7 +3,7 @@ fn main() {
     // NOP on windows
 }
 
-#[cfg(target_os = "macos")]
+#[cfg(any(target_os = "macos", target_os = "linux"))]
 fn main() {
     use std::{env, process::Command};
 
