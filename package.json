@@ -17,6 +17,6 @@
   "author": "Jason Thomas",
   "license": "Private",
   "devDependencies": {
-    "cargo-cp-artifact": "^0.1"
+    "cargo-cp-artifact": "^0.1.9"
   }
 }
